@@ -1,5 +1,5 @@
 # While taking input from the user, the input is always considered as a string.
-# To take input of other datatypes, we need to typecast the input into the required
+# To take input of other datatypes, we need to typecast the input into the required datatype.
 
 a = int(input("Enter Number 1: "))
 b = int(input("Enter Number 2: "))

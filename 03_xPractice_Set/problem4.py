@@ -7,5 +7,6 @@ print(name.find("  "))
 print(name.replace("  ", " "))
 
 print(name)
+
 # The string is not changed because strings are immutable . if we run function on string it will return a new string. the main string will reamin unchanged.
 

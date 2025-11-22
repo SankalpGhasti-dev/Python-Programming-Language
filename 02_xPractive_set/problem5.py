@@ -2,7 +2,8 @@
 a = int(input("Enter Number: "))
 
 print("The square of this Number is", a*a)
-print("The square of this Number is", a**3)
+print("The square of this Number is", a**2)
+print("The cube of this Number is", a**3)
 # print("The square of this Number is", a^2) 
 # This will not give correct output as ^ is bitwise XOR operator.
 

@@ -7,6 +7,6 @@ b = "Rohit sharma is gretest \"Batsman\" as well as \"Captain\" "
 
 print(b)
 
-c = "Rohit sharma is greatest \'Batsman\'"
+c = "Rohit sharma is greatest \"Batsman\""
 
 print(c)
