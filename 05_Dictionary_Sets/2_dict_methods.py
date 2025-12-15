@@ -1,11 +1,11 @@
-
+d = {} # Empty Dictionary 
 marks = {
     "Harry" : 100, 
     "Rohan" : 25, 
     "Skill" : 70,
 }
 
-# The left one (Harry, Rohan ) are keys and the right one (100, 25) are values.
+# The left one (Harry, Rohan) are keys and the right one (100, 25) are values.
 
 print(marks.items())
 

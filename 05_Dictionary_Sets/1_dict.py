@@ -5,5 +5,6 @@ marks = {
     "Skill" : 70,
 }
 
+print(len(marks))
 print(marks, type(marks))
 print(marks["Harry"])
