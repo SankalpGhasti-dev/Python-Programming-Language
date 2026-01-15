@@ -24,4 +24,4 @@ Lights the trav'ller in the dark:
 Tho' I know not what you are,
 Twinkle, twinkle, little star.''')
 
-# for printing multi-line strings we use triple quotes (''' or """) in python. ''' is for single quotes and """ is for double quotes.
+# for printing multi-line strings we use triple quotes (''' or """) in python. ''' is single quotes and """ is double quotes.

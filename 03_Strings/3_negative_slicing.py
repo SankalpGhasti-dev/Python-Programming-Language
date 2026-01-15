@@ -16,4 +16,4 @@ print(name[0:4])
 
 # if there is no ending index, it is considered as length of string. means here 7.
 print(name[1:])
-print(name[1:5]) 
+print(name[1:7]) 
