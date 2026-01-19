@@ -6,6 +6,9 @@
 
 for i in range (0,4):   # (4) is excluded same as (0 to 3) 
     print(i)
-    i += 1
+    
 
 # A for loop is used to iterate through a sequence like list, tuple, or string.
+
+# range (0,4) mean it will run from 0 to 3...
+# range (0,n) means it will run from 0 to (n-1)...
