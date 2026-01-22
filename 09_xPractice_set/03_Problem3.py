@@ -4,5 +4,5 @@ def generateTable(i):
 
 
 for i in range(2, 21):
-    generateTable
+    generateTable(i)
 
