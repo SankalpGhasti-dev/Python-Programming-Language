@@ -13,7 +13,7 @@ yourstr = input("Enter your Choice: ")
 youDict = {"s": 1 , "w": -1 , "g": 0}
 reverseDict  = { 1:"snake", -1: "water", 0: "gun"}
 
-you = youDict[yourstr]
+you = youDict[youDict]
 
 # By now we havve 2 numbers (variables), you and computer
 
