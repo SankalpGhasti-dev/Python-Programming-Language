@@ -7,6 +7,6 @@ with open ("09_xPractice_set/05_xproblem.txt" , "r") as f:
 for word in list:
         content = content.replace( word , "#" * len(word))    
 
-with open ("09_xPractice_set/05_xproblem.txt" , "w") as file:
-    file.write(content)
-
+with open ("09_xPractice_set/05_xproblem.txt" , "w") as f:
+    f.write(content)
+    
