@@ -1,10 +1,12 @@
+
 class Employee:
     language = "py"   # This is a class attribute
     salary = 2300000
     
-
+# Creating objects of the class Employee
 
 sankalp = Employee()
+
 sankalp.name = "Sankalp"   # This is an instance attribute (object attribute)
 print(sankalp.name, sankalp.language, sankalp.salary)
 

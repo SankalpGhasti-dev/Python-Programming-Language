@@ -3,9 +3,18 @@ class Employee:
     salary = 2300000
     
     def getinfo(self):
-        print(f" The language is {self.language} and salary is {self.salary}.")
+        print(f"The language is {self.language} and salary is {self.salary}.")
+    
+    @staticmethod
+
+    def greet():
+        print("Good Morning !")
 
 sankalp = Employee()
+
+sankalp.greet()
+
+#statice method means method which doesn't take self parameter.
 
 sankalp.getinfo()
 
