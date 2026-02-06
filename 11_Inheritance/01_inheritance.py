@@ -1,7 +1,8 @@
 
 class employee:              # It is base/parent class.
     company = "Google"
-
+    name = "Sankalp"
+    salary = 1000000
     def show(self):
         print(f"{self.name} is an Employee and his salary is {self.salary}.")
 
@@ -19,14 +20,18 @@ class employee:              # It is base/parent class.
 class devlopers(employee):    # It is an child/derived class.
 
     company = "Microsoft"
+    language = "python"
 
     def showlanguage(self):
-        print(f"{self.name} as a devloper has good command at {self.language} Language.")
+        print(f"{self.name} as a devloper has good command on {self.language} Language.")
         
 
 a = employee()
 
 b = devlopers()
+  
+b.show()
+b.showlanguage()
 
-print(a.company, b.company)  
 
+# print(a.company, b.company)

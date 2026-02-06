@@ -23,5 +23,3 @@ t.book("Delhi", "Mumbai")
 t.getstatus()
 t.getfare("Delhi", "Mumbai")
 
-
-
