@@ -23,7 +23,7 @@ class devlopers(employee):    # It is an child/derived class.
     language = "python"
 
     def showlanguage(self):
-        print(f"{self.name} as a devloper has good command on {self.language} Language.")
+        print(f"{self.name} as a devloper in {self.company} has good command on {self.language} Language.") 
         
 
 a = employee()
