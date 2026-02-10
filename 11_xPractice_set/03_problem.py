@@ -7,3 +7,4 @@ class employee:
         print(f"Employee salary is {self.salary}.")
 
 a = employee()
+b = employee()   
