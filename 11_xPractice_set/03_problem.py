@@ -1,10 +1,15 @@
 class employee: 
     salary = 10000
     increment = 20
-    pass
     
-    def __init__(self):
-        print(f"Employee salary is {self.salary}.")
+    
+    @property
+    def salaryAfterIncrement(self):
+            return (self.salary + self.salary * (self.increment/100))
+    
+    @increment.setter
+    def increment(self, salary):
+          
 
 a = employee()
-b = employee()   
+print(a.salaryAfterIncrement) 
